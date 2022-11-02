@@ -1,0 +1,7 @@
+{
+  "name": "yameteo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
