@@ -6,25 +6,22 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true" class="body">
+<ion-content [fullscreen]="true">
 
-
-
-  <div class="main">
+  <div class="main" style="flex-direction: column;">
     <span class="city">Saint-Benoit </span>
-    <br>
     <span class="date">10h50</span>
-  </div>
-  <div class="icon">
-    <img src="../../assets/icon/RUN.png" alt="" style="border-radius: 50%;">
-  </div>
-  <div class="temp">
-    <span class="temp-value">Nuagueux </span>
-    <span class="temp-unit">25°C</span>
-  </div>
 
+   <div class="logo">
+      <img src="../../assets/icon/RUN.without-background.png" style="border-radius: 50%" alt="">
+    </div>
+ 
+      <span class="description">Nuagueux </span>
+      <span class="temperature">25°C</span>
+  </div>
 
   <ion-grid>
+    <!-- 7 jours -->
     <ion-row>
       <ion-col class="day">Tue</ion-col>
       <ion-col class="day">Wed</ion-col>
@@ -75,13 +72,13 @@
     <!-- Min Temperature -->
 
     <ion-row>
-      <ion-col class="hi-sm">24°</ion-col>
-      <ion-col class="hi-sm">25°</ion-col>
-      <ion-col class="hi-sm">25°</ion-col>
-      <ion-col class="hi-sm">25°</ion-col>
-      <ion-col class="hi-sm">22°</ion-col>
-      <ion-col class="hi-sm">25°</ion-col>
-      <ion-col class="hi-sm">20°</ion-col>
+      <ion-col class="lo-sm">24°</ion-col>
+      <ion-col class="lo-sm">25°</ion-col>
+      <ion-col class="lo-sm">25°</ion-col>
+      <ion-col class="lo-sm">25°</ion-col>
+      <ion-col class="lo-sm">22°</ion-col>
+      <ion-col class="lo-sm">25°</ion-col>
+      <ion-col class="lo-sm">20°</ion-col>
     </ion-row>
 
   </ion-grid>

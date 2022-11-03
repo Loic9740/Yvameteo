@@ -1,9 +1,14 @@
 $size1 : 13em;
 $size2 : 3.5em;
 $size3 : 3em;
-$size4 : 2em;
+$size4 : 2em; 
 $size5 : 1.5em;
 $size6 : 1em;
+
+/*  Logo */
+
+
+
 
 ion-content {
   --ion-font-family: 'Roboto', sans-serif;
@@ -13,8 +18,8 @@ ion-header {
   --ion-text-color: 'white';
 }
 
-ion-header {
-  --backgorund: linear-gradient(90deg, #00d2ff 0%, #3a7bd5 100%) !important;
+ion-content {
+  --background: linear-gradient(#0c6cda, #6DD5FA) !important;
   --ion-text-color: 'black';
 }
 
@@ -27,10 +32,12 @@ ion-header {
 .city
 {
   display: block;
-  font-size: $size3;
+  font-size: $size5;
   font-weight: bold;
   padding-top: 0.2em;
 }
+
+
 
 .date
 {
@@ -42,17 +49,18 @@ ion-header {
 .description
 {
   display: block;
-  font-size: $size3;
+  font-size: $size5;
   font-weight: bold;
 }
 
 .temperature
 {
   display: block;
-  font-size: $size1;
+  font-size: $size6;
   padding: 0px;
   margin: 0px;
 }
+
 .icon{
   display: flex;
   font-size: $size4;
@@ -87,3 +95,4 @@ ion-grid
 .lo-sm{
   display: block;
 }
+
