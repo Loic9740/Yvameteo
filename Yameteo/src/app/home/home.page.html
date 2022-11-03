@@ -6,16 +6,20 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content [fullscreen]="true" class="body">
+
+
+
   <div class="main">
-    <span class="city">Saint-Benoit</span>
+    <span class="city">Saint-Benoit </span>
+    <br>
     <span class="date">10h50</span>
   </div>
   <div class="icon">
     <img src="../../assets/icon/RUN.png" alt="" style="border-radius: 50%;">
   </div>
   <div class="temp">
-    <span class="temp-value">Nuagueux</span>
+    <span class="temp-value">Nuagueux </span>
     <span class="temp-unit">25°C</span>
   </div>
 
@@ -31,6 +35,9 @@
       <ion-col class="day">Mon</ion-col>
 
     </ion-row>
+
+    <!--Prévision météorologique-->
+
     <ion-row>
       <ion-col class="precipition">60%</ion-col>
       <ion-col class="precipition">-</ion-col>
@@ -40,6 +47,9 @@
       <ion-col class="precipition">-</ion-col>
       <ion-col class="precipition">-</ion-col>
     </ion-row>
+
+    <!-- Icone météo -->
+
     <ion-row>
       <ion-col class="icon-sm"><img src="../../assets/icon/nuage-meteo.png"></ion-col>
       <ion-col class="icon-sm"><img src="../../assets/icon/nuage-meteo.png"></ion-col>
@@ -50,8 +60,10 @@
       <ion-col class="icon-sm"><img src="../../assets/icon/nuage-meteo.png"></ion-col>
     </ion-row>
 
+    <!-- Max Temperature -->
+
     <ion-row>
-      <ion-col class="hi-sm">25°</ion-col>
+      <ion-col class="hi-sm">29°</ion-col>
       <ion-col class="hi-sm">27°</ion-col>
       <ion-col class="hi-sm">30°</ion-col>
       <ion-col class="hi-sm">30°</ion-col>
@@ -59,5 +71,18 @@
       <ion-col class="hi-sm">29°</ion-col>
       <ion-col class="hi-sm">25°</ion-col>
     </ion-row>
+
+    <!-- Min Temperature -->
+
+    <ion-row>
+      <ion-col class="hi-sm">24°</ion-col>
+      <ion-col class="hi-sm">25°</ion-col>
+      <ion-col class="hi-sm">25°</ion-col>
+      <ion-col class="hi-sm">25°</ion-col>
+      <ion-col class="hi-sm">22°</ion-col>
+      <ion-col class="hi-sm">25°</ion-col>
+      <ion-col class="hi-sm">20°</ion-col>
+    </ion-row>
+
   </ion-grid>
 </ion-content>
