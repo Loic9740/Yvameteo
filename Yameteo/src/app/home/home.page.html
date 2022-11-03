@@ -1,20 +1,63 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Weather
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <div class="main">
+    <span class="city">Saint-Benoit</span>
+    <span class="date">10h50</span>
   </div>
+  <div class="icon">
+    <img src="../../assets/icon/RUN.png" alt="" style="border-radius: 50%;">
+  </div>
+  <div class="temp">
+    <span class="temp-value">Nuagueux</span>
+    <span class="temp-unit">25°C</span>
+  </div>
+
+
+  <ion-grid>
+    <ion-row>
+      <ion-col class="day">Tue</ion-col>
+      <ion-col class="day">Wed</ion-col>
+      <ion-col class="day">Thu</ion-col>
+      <ion-col class="day">Fri</ion-col>
+      <ion-col class="day">Sat</ion-col>
+      <ion-col class="day">Sun</ion-col>
+      <ion-col class="day">Mon</ion-col>
+
+    </ion-row>
+    <ion-row>
+      <ion-col class="precipition">60%</ion-col>
+      <ion-col class="precipition">-</ion-col>
+      <ion-col class="precipition">40%</ion-col>
+      <ion-col class="precipition">40%</ion-col>
+      <ion-col class="precipition">-</ion-col>
+      <ion-col class="precipition">-</ion-col>
+      <ion-col class="precipition">-</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col class="icon-sm"><img src="../../assets/icon/nuage-meteo.png"></ion-col>
+      <ion-col class="icon-sm"><img src="../../assets/icon/nuage-meteo.png"></ion-col>
+      <ion-col class="icon-sm"><img src="../../assets/icon/nuage-meteo.png"></ion-col>
+      <ion-col class="icon-sm"><img src="../../assets/icon/nuage-meteo.png"></ion-col>
+      <ion-col class="icon-sm"><img src="../../assets/icon/nuage-meteo.png"></ion-col>
+      <ion-col class="icon-sm"><img src="../../assets/icon/nuage-meteo.png"></ion-col>
+      <ion-col class="icon-sm"><img src="../../assets/icon/nuage-meteo.png"></ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col class="hi-sm">25°</ion-col>
+      <ion-col class="hi-sm">27°</ion-col>
+      <ion-col class="hi-sm">30°</ion-col>
+      <ion-col class="hi-sm">30°</ion-col>
+      <ion-col class="hi-sm">28°</ion-col>
+      <ion-col class="hi-sm">29°</ion-col>
+      <ion-col class="hi-sm">25°</ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
