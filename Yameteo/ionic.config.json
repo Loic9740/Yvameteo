@@ -1,0 +1,7 @@
+{
+  "name": "Yameteo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
